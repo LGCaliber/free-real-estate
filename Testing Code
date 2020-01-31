@@ -32,6 +32,9 @@ int main(){
     q.push(8);
     q.push(9);
     
+    std::cout << "Testing negative number []. Error should occur." << std:: endl;
+    q[-1];
+    
     std::cout << "Testing push function when queue is full and begin = 0. Error message should occur." << std::endl;
     q.push(20);
     
